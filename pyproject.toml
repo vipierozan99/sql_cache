@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sql-cache"
+version = "0.1.0"
+description = ""
+authors = ["vipierozan99 <victorpierozan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.25"
+pandas = "^2.2.0"
+rich = "^13.7.0"
+aiosqlite = "^0.19.0"
+pyarrow = "^15.0.0"
+duckdb = "^0.9.2"
+duckdb-engine = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
